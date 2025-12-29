@@ -8,7 +8,7 @@
     "dev": "concurrently \"cd medbot-app && npm run dev\" \"npm run server\"",
     "server": "node server.js",
     "install:all": "npm install && cd medbot-app && npm install",
-    "build": "cd medbot-app && npm run build",
+    "build": "cd medbot-app && npm install && npm run build",
     "start": "npm run server",
     "clean": "cd medbot-app && npm run clean"
   },
